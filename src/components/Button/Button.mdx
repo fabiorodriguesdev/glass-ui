@@ -1,0 +1,13 @@
+import { Canvas, Meta, Controls } from '@storybook/blocks';
+ 
+import * as ButtonStories from "./Button.stories";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+A button is a clickable element that can be used to trigger actions such as submitting a form, or opening a dialog.
+
+<Canvas of={ButtonStories.Default} />
+
+<Controls of={ButtonStories.Default} />
